@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CarsController">
+   <children>
+      <Button fx:id="rightButton" layoutX="84.0" layoutY="242.0" mnemonicParsing="false" onAction="#showRight" text="Right" />
+      <ListView fx:id="listBoxMain" layoutX="11.0" layoutY="22.0" prefHeight="200.0" prefWidth="576.0" />
+      <ComboBox fx:id="comboBox" layoutX="436.0" layoutY="255.0" prefWidth="150.0" />
+      <Label layoutX="360.0" layoutY="260.0" prefHeight="17.0" prefWidth="75.0" text="Select car:" />
+      <Label layoutX="353.0" layoutY="301.0" text="Coordinate:" />
+      <TextField fx:id="txtAddItem" layoutX="436.0" layoutY="296.0" prefHeight="27.0" prefWidth="150.0" />
+      <Button fx:id="leftButton" layoutX="23.0" layoutY="242.0" mnemonicParsing="false" onAction="#showLeft" text="Left" />
+      <Button fx:id="BtnAddCoordinate" layoutX="543.0" layoutY="332.0" mnemonicParsing="false" onAction="#showCoordinate" text="Add" />
+      <Button fx:id="BtnAccelerate" layoutX="271.0" layoutY="269.0" mnemonicParsing="false" onAction="#accelerateSpeed" text="acce" />
+      <Button fx:id="BtnBreak" layoutX="270.0" layoutY="310.0" mnemonicParsing="false" onAction="#breakCar" text="break" />
+      <Button fx:id="BtnStop" layoutX="270.0" layoutY="345.0" mnemonicParsing="false" onAction="#stopCar" text="stop" />
+   </children>
+</Pane>
